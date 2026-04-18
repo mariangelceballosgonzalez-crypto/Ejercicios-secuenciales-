@@ -1,0 +1,18 @@
+Definir parcial1, parcial2, parcial3 Como Real
+    Definir examenFinal, trabajoFinal Como Real
+    Definir promedioParciales, notaFinal Como Real
+    Escribir "Ingrese la nota del primer parcial:"
+    Leer parcial1
+    Escribir "Ingrese la nota del segundo parcial:"
+    Leer parcial2
+    Escribir "Ingrese la nota del tercer parcial:"
+    Leer parcial3
+     Escribir "Ingrese la nota del examen final:"
+    Leer examenFinal
+     Escribir "Ingrese la nota del trabajo final:"
+    Leer trabajoFinal
+    promedioParciales <- (parcial1 + parcial2 + parcial3) / 3
+    notaFinal <- (promedioParciales * 0.55) + (examenFinal * 0.30) + (trabajoFinal * 0.15)
+    Escribir "El promedio de parciales es: ", promedioParciales
+    Escribir "La calificacion final es: ", notaFinal
+FinProceso
