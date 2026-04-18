@@ -1,0 +1,9 @@
+ Algoritmo MinutosAHoras
+ Definir minutos, horas, resto Como Entero
+ Escribir "Ingrese la cantidad de minutos:"
+ Leer minutos
+ horas <- minutos / 60   
+ resto <- minutos MOD 60
+Escribir "Equivale a ", horas, " horas y ", resto, " minutos"	
+FinAlgoritmo
+	
