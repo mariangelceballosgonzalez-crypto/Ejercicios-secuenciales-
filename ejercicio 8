@@ -1,0 +1,19 @@
+    Algoritmo sueldosincomisiones
+	Definir sueldoBase, venta1, venta2, venta3 Como Real
+    Definir totalVentas, comision, totalPagar Como Real
+    Escribir "Ingrese el sueldo base:"
+    Leer sueldoBase
+    Escribir "Ingrese el valor de la primera venta:"
+    Leer venta1
+	Escribir "Ingrese el valor de la segunda venta:"
+    Leer venta2
+    Escribir "Ingrese el valor de la tercera venta:"
+    Leer venta3
+    totalVentas <- venta1 + venta2 + venta3
+    comision <- totalVentas * 0.10
+    totalPagar <- sueldoBase + comision
+    Escribir "El total de comisiones es: ", comision
+    Escribir "El sueldo total a recibir es: ", totalPagarAlgoritmo
+    FinAlgoritmo
+
+	
