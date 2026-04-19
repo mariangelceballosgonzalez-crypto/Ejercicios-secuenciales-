@@ -1,0 +1,13 @@
+Algoritmo IntercambiarValores
+	 Definir A, B, aux Como Real
+    Escribir "Ingrese el valor de A:"
+    Leer A
+    Escribir "Ingrese el valor de B:"
+    Leer B
+    aux <- A
+    A <- B
+    B <- aux
+    Escribir "El nuevo valor de A es: ", A
+    Escribir "El nuevo valor de B es: ", B
+	FinProceso
+	
