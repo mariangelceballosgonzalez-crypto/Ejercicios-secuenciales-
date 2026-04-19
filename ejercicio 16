@@ -1,0 +1,17 @@
+Algoritmo AlcanceVehiculos
+	Definir d, v1, v2, tiempoHoras, tiempoMinutos Como Real
+  Escribir "Ingrese la distancia entre los vehiculos (km):"
+    Leer d
+     Escribir "Ingrese la velocidad del vehiculo de adelante (km/h):"
+    Leer v1
+     Escribir "Ingrese la velocidad del vehiculo de atras (km/h):"
+    Leer v2
+     si v2 > v1 Entonces
+        tiempoHoras <- d / (v2 - v1)
+        tiempoMinutos <- tiempoHoras * 60
+          Escribir "El tiempo en que lo alcanza es: ", tiempoMinutos, " minutos"
+    SiNo
+        Escribir "El vehiculo de atras no alcanzara al de adelante"
+        FinProceso
+
+
