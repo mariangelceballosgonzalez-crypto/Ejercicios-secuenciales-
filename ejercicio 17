@@ -1,0 +1,26 @@
+ Algoritmo HoraLlegadaCiclista
+	Definir hh, mm, ss, T Como Entero
+    Definir totalSegundos, hFinal, mFinal, sFinal Como Entero
+    
+    Escribir "Ingrese la hora de salida (HH):"
+    Leer hh
+    
+    Escribir "Ingrese los minutos de salida (MM):"
+    Leer mm
+    
+    Escribir "Ingrese los segundos de salida (SS):"
+    Leer ss
+    
+    Escribir "Ingrese el tiempo de viaje en segundos:"
+    Leer T
+    
+    // Convertir todo a segundos
+    totalSegundos <- hh * 3600 + mm * 60 + ss + T
+    
+    // Convertir nuevamente a horas, minutos y segundos
+    hFinal <- (totalSegundos / 3600) MOD 24
+    mFinal <- (totalSegundos MOD 3600) / 60
+    sFinal <- totalSegundos MOD 60
+    
+    Escribir "Hora de llegada: ", hFinal, ":", mFinal, ":", sFinal
+   FinAlgoritmo
