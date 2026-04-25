@@ -1,0 +1,27 @@
+ Algoritmo CalcularDinero  	
+	Definir m2, m1, m50, m20, m10 Como Entero
+    Definir totalCentimos, euros, centimos Como Entero
+    
+    Escribir "Ingrese la cantidad de monedas de 2 euros:"
+    Leer m2
+    
+    Escribir "Ingrese la cantidad de monedas de 1 euro:"
+    Leer m1
+    
+    Escribir "Ingrese la cantidad de monedas de 50 centimos:"
+    Leer m50
+    
+    Escribir "Ingrese la cantidad de monedas de 20 centimos:"
+    Leer m20
+    
+    Escribir "Ingrese la cantidad de monedas de 10 centimos:"
+    Leer m10
+    
+    totalCentimos <- (m2 * 200) + (m1 * 100) + (m50 * 50) + (m20 * 20) + (m10 * 10)
+    
+    euros <- totalCentimos / 100
+    centimos <- totalCentimos MOD 100
+    
+    Escribir "Tiene en total: ", euros, " euros y ", centimos, " centimos"
+
+    FinAlgoritmo
