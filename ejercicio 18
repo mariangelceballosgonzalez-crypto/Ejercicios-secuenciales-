@@ -1,0 +1,25 @@
+Algoritmo  Iniciales
+	Definir nombre, apellido1, apellido2 Como Cadena
+    Definir ini1, ini2, ini3 Como Cadena
+    
+    Escribir "Ingrese el nombre:"
+    Leer nombre
+    
+    Escribir "Ingrese el primer apellido:"
+    Leer apellido1
+    
+    Escribir "Ingrese el segundo apellido:"
+    Leer apellido2
+    
+    ini1 <- SubCadena(nombre, 0, 0)
+    ini2 <- SubCadena(apellido1, 0, 0)
+    ini3 <- SubCadena(apellido2, 0, 0)
+    
+    Escribir "Las iniciales son: "
+	leer iniciales1
+	leer apellido1
+	leer apellido2
+	Escribir las inciales
+	
+
+FinAlgoritmo
