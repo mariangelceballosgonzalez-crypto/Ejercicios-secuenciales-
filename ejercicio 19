@@ -1,0 +1,16 @@
+Algoritmo  NotaEstudiante
+	Definir correctas, incorrectas, blancas, notaFinal Como Entero
+    
+    Escribir "Ingrese el numero de respuestas correctas:"
+    Leer correctas
+    
+    Escribir "Ingrese el numero de respuestas incorrectas:"
+    Leer incorrectas
+    
+    Escribir "Ingrese el numero de respuestas en blanco:"
+    Leer blancas
+    
+    notaFinal <- (correctas * 5) + (incorrectas * 1) + (blancas * 0)
+    
+    Escribir "La nota final es: ", notaFinal	
+	FinAlgoritmo
